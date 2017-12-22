@@ -9,6 +9,42 @@
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
 </style>
 <body>
 
@@ -52,18 +88,50 @@ body {font-family: "Lato", sans-serif}
 
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">CONE APPS</h2>
+  
+    <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" class="w3-hover-opacity" href="sc5.png">
+      <img src="sc5.png" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" class="w3-hover-opacity" href="sc1.png">
+      <img src="sc1.png" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" class="w3-hover-opacity" href="sc2.png">
+      <img src="sc2.png" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" class="w3-hover-opacity" href="sc3.png">
+      <img src="sc3.png"" width="600" height="400">
+    </a>
+  </div>
+</div>
+<br>
+
+
+<h2 class="w3-wide">CONE APPS</h2>
     <p class="w3-opacity"><i>We admire games.</i></p>
     <p class="w3-justify">Our company is based on mobile games. We are developing in Android since 2015. We are looking for opportunities to get a place in IOS Appstore and virtual-augmented reality sector.</p>
     <h2 class="w3-wide">VISION</h2>
     <p class="w3-justify">Be one of the best companies in the sector by using developing technology and creative ideas.</p>
     <h2 class="w3-wide">MISSION</h2>
     <p class="w3-justify">We develop games that improve people's skills such as reflex, caution, memory and patience.</p>
+ </div>
 
-    
-  </div>
-
-  <!-- The Tour Section -->
   <div class="w3-black" id="projects">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">PROJECT-1</h2>
